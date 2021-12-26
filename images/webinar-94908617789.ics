@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:Africa/Lagos
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Africa/Lagos
+X-LIC-LOCATION:Africa/Lagos
+BEGIN:STANDARD
+TZNAME:WAT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211127T013315Z
+DTSTART;TZID=Africa/Lagos:20211130T130000
+DTEND;TZID=Africa/Lagos:20211130T143000
+SUMMARY:Growing In Your Career As A Software Engineer
+UID:20211127T013315Z-94908617789@fe80:0:0:0:14f3:15ff:fe81:8333ens5
+TZID:Africa/Lagos
+DESCRIPTION:Join from a PC\, Mac\, iPad\, iPhone or Android device:\n    
+ Please click this URL to join. https://zoom.us/w/94908617789?tk=25diMhLv
+ LCW2xPtC5bhK-tQyMNzFdLdWa7obXJa_yvw.DQMAAAAWGP6UPRZzOW9BNHNpYVFULVZHTlZ4
+ SXRXVlB3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&uuid=WN_2OIy7rPIQuSX1nDzUH0UoQ\n	
+ Description: Just like every other career\, software engineers desire ca
+ reer growth but it doesn’t just fall into your laps\, there are some thi
+ ngs you need to do to move up the invincible career ladder. They may inc
+ lude getting certifications\, attending conferences\, contributing to wo
+ rk done by others and so much more. \nTo help you understand how you can
+  grow in your software engineering\, we’ll be hosting a webinar at 1 PM 
+ (WAT) on Tuesday\, November 30 2021. During this webinar\, Prosper Otemu
+ yiwa\, Co-Founder/CTO at Eden Life\, will be sharing helpful tips from h
+ is wealth of experience as a seasoned Engineering Leader. \nYou will lea
+ rn:\n1. What to focus on when starting out as an engineer? - skills\, st
+ acks\, frontend\, backend.\n2. How can I grow my career? \n3. What role 
+ does mentoring play in career growth?\n4. Challenges you will face in yo
+ ur career and how to overcome them. \n\nWe can’t wait to see you at the 
+ webinar\, come with your questions!\n\nFor more information on Flutterwa
+ ve's Privacy practices\, please see the privacy policy: https://flutterw
+ ave.com/privacy-policy\n\nOr One tap mobile:\n    +13126266799\,\,949086
+ 17789# US (Chicago)\n    +16465588656\,\,94908617789# US (New York)\n\nO
+ r join by phone:\n    Dial(for higher quality\, dial a number based on y
+ our current location):\n        US: +1 312 626 6799  or +1 646 558 8656 
+  or +1 301 715 8592  or +1 346 248 7799  or +1 669 900 9128  or +1 253 2
+ 15 8782 \n    Webinar ID: 949 0861 7789\n    International numbers avail
+ able: https://zoom.us/u/awiUZMpC5\n\n
+LOCATION:https://zoom.us/w/94908617789?tk=25diMhLvLCW2xPtC5bhK-tQyMNzFdLd
+ Wa7obXJa_yvw.DQMAAAAWGP6UPRZzOW9BNHNpYVFULVZHTlZ4SXRXVlB3AAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAA&uuid=WN_2OIy7rPIQuSX1nDzUH0UoQ
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

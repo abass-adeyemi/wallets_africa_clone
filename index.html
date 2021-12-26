@@ -37,7 +37,7 @@
 				position: absolute;
 				bottom: 0;
 				right: 0;
-				z-index: ;
+				z-index: 4;
 				border-top: 1.5px solid var(--head-blue);
 				width: 30px;
 				margin-right: 5px;
@@ -87,6 +87,67 @@
 					#e4f2f0 -8.33%,
 					rgba(199, 188, 248, 0) 131.79%
 				);
+			}
+			.takeControlBg {
+				top: 0%;
+				right: 0;
+				height: 395px;
+				background: linear-gradient(
+					107.61deg,
+					#f4eeff 40%,
+					rgba(225, 182, 185, 0.33725490196078434) 60%
+				);
+			}
+			.transferBg {
+				top: 5%;
+				left: 0;
+
+				height: 80%;
+				background: linear-gradient(
+					107.61deg,
+					#f4eeff 40%,
+					rgba(225, 182, 185, 0.33725490196078434) 60%
+				);
+			}
+			.semi-width {
+				width: 75%;
+			}
+			@media only screen and (max-width: 768px) {
+				.semi-width {
+					width: 80%;
+					margin-top: 60%;
+				}
+			}
+			.bgmap {
+				background: url(images/map.png);
+				background-size: contain;
+				background-position: 50%;
+			}
+			.text1 {
+				background-image: url(images/1.png);
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+			.text2 {
+				background-image: url(images/2.png);
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+			.text3 {
+				background-image: url(images/3.png);
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+			.qoute {
+				background-color: cadetblue;
+				width: 92px;
+				height: 92px;
+				position: relative;
+				/* align-content: center; */
+				/* background-repeat: no-repeat;
+				background-size: contain;
+				background-position: left; */
+				border-radius: 50%;
 			}
 		</style>
 
@@ -176,7 +237,7 @@
 								<br />
 								for the next billion users
 							</h2>
-							<p class="mb-4 l-35">
+							<p class="mb-4 lh-lg">
 								Wallets Africa helps Africans and African owned businesses send
 								money, receive money, make card payments and access loans.
 								Onboard and perform all financial transactions from the comfort
@@ -239,7 +300,7 @@
 								Unlock the priviledges of being a customer by opening a free
 								business account in 3 minutes
 							</h2>
-							<p class="mb-4">
+							<p class="mb-4 lh-lg">
 								We are very big making our customers happy, and we have a good
 								track record to proof this
 							</p>
@@ -251,46 +312,410 @@
 									align-items-center
 									fw-bold
 									mb-4
+									text-decoration-none
 								"
 							>
-								Get Started &nbsp; <i class="bx bx-right-arrow-alt t-25"> </i>
+								Get Started &nbsp;
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-arrow-right"
+									viewBox="0 0 16 16"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+									/>
+								</svg>
 							</a>
 						</div>
 						<!-- horizontal line  -->
 						<hr class="mt-4 mb-3" />
 						<div class="d-flex justify-content-between flex-wrap">
-							<div class="flex-row d-flex align-items-center mb-3">
-								<span class="mb-2"
-									><img
-										src="images/PiggyVest Logo.svg"
-										alt="PiggyVest"
-										class="img-fluid w-md-25"
-								/></span>
-								<span
+							<div class="row text-center d-flex align-items-center mb-3">
+								<span class="col-md mb-2"
 									><img
 										src="images/PiggyVest Logo.svg"
 										alt="PiggyVest"
 										class="img-fluid w-md-50"
 								/></span>
-								<span
+								<span class="col-md mb-2"
 									><img
-										src="images/PiggyVest Logo.svg"
+										src="images/Cowrywise Logo.svg"
+										alt="Cowrywise"
+										class="img-fluid w-md-50"
+								/></span>
+								<span class="col-md mb-2"
+									><img
+										src="images/Schoolable Logo.svg"
 										alt="PiggyVest"
 										class="img-fluid w-md-50"
 								/></span>
+								<br />
+								<br />
 							</div>
+							<div class="d-flex row text-center align-items-center">
+								<span class="col-md mb-2">
+									<img
+										src="images/Thrive Agric Logo.svg"
+										alt="Thrive_logo"
+										class="img-fluid w-md-50"
+										width="50"
+									/>
+								</span>
+								<span class="col-md mb-2">
+									<img
+										src="images/Workstation Logo.svg"
+										alt="Workstation"
+										class="img-fluid w-md-50"
+									/>
+								</span>
+								<span class="col-md mb-2">
+									<img
+										src="images/Hotels.ng Logo.svg"
+										alt="Hotels"
+										class="img-fluid w-md-50"
+									/>
+								</span>
+								<br /><br />
+							</div>
+						</div>
+						<div style="border-top: 1px solid #d8d8d8" class="mt-2"></div>
+						<p style="margin-top: 10px; font-size: 14px">
+							5000, businesses trust wallets africa
+						</p>
+						<hr style="border-top: 2px solid #d8d8d8" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="py-3" style="margin: 100px 0 100px 0; position: relative">
+			<div class="container">
+				<div class="row d-flex align-items-center">
+					<div class="col-md-7">
+						<div class="semi-width">
+							<h3 mb-3 h2>Smart banking and transparent and cheaper fees</h3>
+							<p class="mb-3 lh-lg">
+								We know how hard it is you work for your money. We work hard too
+								and we respect that. We are clear about our fees and work to
+								offer the cheapest rates possible
+							</p>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<img
+							src="images/Banking-Image.svg"
+							alt=""
+							class="img-fluid d-block mx-auto z-1"
+						/>
+					</div>
+				</div>
+			</div>
+			<div
+				class="transferBg"
+				style="width: 75%; z-index: -1; position: absolute"
+			></div>
+		</section>
+		<section class="pt-md-3 pb-mb-3 my-5" style="position: relative">
+			<div class="container">
+				<div class="row d-flex align-items-center">
+					<div class="col-md-5">
+						<img
+							src="images/Man-1.png"
+							alt="man that is smiling"
+							class="img-fluid"
+						/>
+					</div>
+					<div class="col-md-7" style="padding-right: 100px">
+						<h3 class="mb-3 h2">
+							Take control of your finances by staying on top of your payments
+						</h3>
+						<p class="mb-3 lh-lg" style="padding-right: 100px">
+							Manage your beneficiaries from your phone or computer. Send money
+							to any bank account or mobile money wallet instantly.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div
+				style="position: absolute; z-index: -1; width: 75%"
+				class="takeControlBg"
+			></div>
+		</section>
+
+		<section class="my-5 py-md-5 py-sm-3">
+			<div class="row m-0 z-1 d-flex align-items-center">
+				<div class="col-md-5 px-0">
+					<img
+						src="images/hand_card1.gif"
+						alt="man hold the virtual card"
+						class="img-fluid"
+					/>
+				</div>
+				<div class="col-md-7 p-0 d-flex" style="position: relative">
+					<div
+						class="container-fluid semi-width"
+						style="border-right: 5px solid #00c9b6"
+					>
+						<h2>
+							Instantly create virtual dollar and physical naira cards to handle
+							your payments
+						</h2>
+					</div>
+				</div>
+				<div class="d-flex justify-content-end" style="position: absolute">
+					<img
+						src="images/cta dots blue2.png"
+						alt="stars with dot"
+						class="img-fluid"
+					/>
+				</div>
+			</div>
+		</section>
+		<section class="py-md-5">
+			<div class="container" style="position: relative">
+				<div>
+					<div class="card shadow border-0">
+						<div class="row d-flex align-items-center">
+							<div class="col-md-6 p-0">
+								<img src="images/online-trans.svg" alt="" class="img-fluid" />
+							</div>
+
+							<div class="col-md-6 px-4">
+								<div class="container-fluid bgmap">
+									<h2 class="mb-3 lh-lg">
+										Use Wallets Africa cards to make local and international
+										payments anywhere
+									</h2>
+									<p class="mb-4 lh-lg">
+										Create a virtual card on sign up, order for a physical card
+										and we would have it delivered to your doorstep ASAP!
+									</p>
+									<a
+										href="#"
+										class="
+											text-purple text-uppercase
+											d-flex
+											mb-4
+											text-decoration-none
+										"
+										>Learn More About cards &nbsp;
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="15"
+											height="16"
+											fill="currentColor"
+											class="bi bi-arrow-right"
+											viewBox="0 0 16 16"
+										>
+											<path
+												fill-rule="evenodd"
+												d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+											/>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="d-none d-md-block"
+						style="position: absolute; right: 25%; top: 83%"
+					>
+						<img
+							src="images/Payment-bar.svg"
+							alt="payments"
+							class="img-fluid"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section style="background: #f3effa; padding: 100px 0; margin: 200px 0px">
+			<div class="container">
+				<h3 class="mb-5 text-center">Get thing running in 3 easy steps</h3>
+				<div class="d-flex row align-items-center">
+					<div class="col-md-6 d-flex flex-column justify-content-around">
+						<div class="text1 pt-5 ps-5 mb-5">
+							<h4 class="mb-3 ms-4 lh-lg">
+								Register online or download the Wallets Africa mobile app
+							</h4>
+							<p class="ms-4 lh-lg">
+								You can create an account directly from the website or download
+								the Wallets Africa mobile app on the
+								<a href="#" class="text-decoration-none">AppStore</a>
+								or
+								<a href="#" class="text-decoration-none">PlayStore</a>
+							</p>
+						</div>
+						<div class="text2 pt-5 ps-5 mb-4">
+							<h4 class="mb-3 ms-4 lh-lg">
+								Complete our easy setup and KYC process
+							</h4>
+							<p class="ms-4 lh-lg">
+								In order to remove limitations while you transact Wallets
+								Africa, you have to complete our easy account verification
+								process
+							</p>
+						</div>
+						<div class="text3 pt-5 ps-5 mt-5 mb-4">
+							<h4 class="mb-3 ms-4 lh-lg">Start transacting immediately</h4>
+							<p class="ms-4 lh-lg">
+								Instantly create a card, send money to customers and friends
+								locally or internationally, pay bills, receive money, and lots
+								of amazing things!
+							</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="d-flex justify-content-center">
+							<img
+								src="images/Phone-1.png"
+								alt="images showing phone"
+								class="img-fluid w-75"
+							/>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- <script src="./js/bootstrap.js"></script> -->
-		<!-- JavaScript Bundle with Popper -->
+		<!-- beinging of the section for customer feeback/testimonial -->
+		<section class="mt-5 p-md-5" style="position: relative">
+			<div class="container m">
+				<div class="d-flex">
+					<div class="qoute mb-sm-2">
+						<img
+							src="images/quote.png"
+							alt="qoute"
+							class=""
+							style="
+								left: 50%;
+								top: 50%;
+								transform: translate(-50% -50%);
+								position: absolute;
+							"
+						/>
+					</div>
+					<h2 style="margin: 50px 0 10px -40px; z-index: 1">
+						What our customers are saying
+					</h2>
+				</div>
+				<div class="row d-flex my-5">
+					<div class="col-md-5">
+						<div>
+							<img
+								src="images/Releaf.png"
+								alt="Releaf_logo"
+								class="img-fluid"
+								width="120px"
+							/>
+						</div>
+						<p class="my-5 lh-lg me-4">
+							The Wallets payroll is seamless, the cards & sub wallets allow us
+							to be flexible with payments and imprest to people outside of the
+							main founding team. Hands down the Wallets team is the most
+							responsive and customer-centric team I have ever worked with.
+							Similar to Amazon’s focus on the customer I see Wallets having
+							that same outlook
+						</p>
+						<div class="d-flex">
+							<div class="mx-3 my-2 py-sm-3" style="align-content: center">
+								<img
+									src="images/Uzoma.jpg"
+									alt="uzoma picture"
+									class="img-fluid my-1 mx-2"
+									width="60px"
+									height="60px"
+									style="border-radius: 50%"
+									;
+								/>
+							</div>
+							<div>
+								<h5 class="py-3">Uzoma Ayogu</h5>
+								<p class="py-0 mb-0">Co-founder, Releaf (YC S17)</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 d-flex justify-content-center">
+						<div
+							style="
+								margin: 0px 0px;
+								height: 100%;
+								border-right: 2px solid #e7e2f2;
+							"
+						></div>
+					</div>
+					<div class="col-md-5">
+						<div>
+							<img
+								src="images/Thrive Agric Logo.svg"
+								alt="Thrive_logo"
+								class="img-fluid"
+								width="100px"
+							/>
+						</div>
+						<p class="mt-4">
+							The Wallets Africa team is very responsive, they help process all
+							our financial transactions seamlessly.
+						</p>
+						<div class="d-flex align-items-center">
+							<div class="mx-3 my-2 py-sm-3" style="align-content: center">
+								<img
+									src="images/uka-eje.jpeg"
+									alt="uzoma picture"
+									class="img-fluid my-1 mx-2"
+									width="90px"
+									height="90px"
+									style="border-radius: 50%"
+									;
+								/>
+							</div>
+							<div>
+								<h5 class="py-md-5">Uka Eje</h5>
+								<p class="py-0 mb-0">Co-founder, Thrive Agric (YC W19)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div
+				style="
+					background: linear-gradient(
+						351deg,
+						#e9c5ff -118.16%,
+						#fffbee 106.19%
+					);
+					clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+					width: 70%;
+					height: 100%;
+					position: absolute;
+					z-index: -1;
+					right: 0;
+					top: 0;
+				"
+			></div>
+		</section>
+		<!--End of the section for customer feeback/testimonial -->
+
+		<!-- account creating  -->
+		<section class="container">
+			<div>
+				<h1>
+					Access to positive banking at your fingertips. Create a free account
+					in 3 minutes
+				</h1>
+			</div>
+		</section>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 			crossorigin="anonymous"
 		></script>
+
+		<!-- <script src="./js/bootstrap.js"></script> -->
+		<!-- JavaScript Bundle with Popper -->
 	</body>
 </html>
